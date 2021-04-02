@@ -1,1 +1,178 @@
-body{background-color:green;}
+/*بداية الاستايل الاجباري لكل الصفحات*/
+		@import url("https://fonts.googleapis.com/css2?family=Cairo");
+
+		* {
+			font-family: "Cairo", tahoma, sans-serif !important;
+		}
+
+		.fa,
+		.far,
+		.fas {
+			font-family: "Font Awesome 5 Free" !important;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.container {
+			width: 940px;
+			margin: auto;
+		}
+
+		.list_right {
+			display: none;
+		}
+
+		.pagesuj {
+			width: 960px !important;
+			float: left;
+			margin-left: 5px;
+			box-sizing: border-box;
+			padding-top: 10px;
+		}
+
+		.page_title {
+			background-image: -webkit-gradient(linear,
+					0% 50%,
+					100% 50%,
+					color-stop(0%, rgba(26, 132, 185, 0.25)),
+					color-stop(100%, rgba(26, 132, 185, 1)));
+			background-image: -webkit-linear-gradient(0deg,
+					rgba(26, 132, 185, 0.25) 0%,
+					rgba(26, 132, 185, 1) 100%);
+			background-image: linear-gradient(90deg,
+					rgba(26, 132, 185, 0.25) 0%,
+					rgb(26, 132, 185) 100%);
+		}
+
+		h2 {
+			padding: 0px;
+			margin: 0px;
+			color: #092C6B;
+			width: 100%;
+			border-bottom: none !important;
+			font-size: 18px;
+			font-weight: lighter;
+		}
+
+		.main-content {
+		}
+
+		/*نهاية الاستايل الاجباري لكل الصفحات*/
+		#s4-workspace {
+			background-color: #fff;
+		}
+
+		#s4-workspace .slider {
+			box-shadow: 1px 1px 4px #E1E1E1, 1px 1px 4px;
+			margin-bottom: 50px;
+			border: 1px solid #A7A7A7;
+			border-radius: 0 0 10px 10px;
+		}
+
+		#s4-workspace .landing-slider .heading h2,
+		#s4-workspace .slider .heading h2 {
+			padding: 0px 10px 4px 15px;
+		}
+
+		#s4-workspace .carousel {
+			height: 100%;
+		}
+
+		#s4-workspace .carousel-caption {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding-top: 1.25rem;
+			padding-bottom: 1.25rem;
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			height: 100px;
+		}
+
+		#s4-workspace .carousel-caption {
+			background-color: rgb(0 0 0 / 67%);
+			;
+		}
+
+		#s4-workspace .carousel-caption p {
+			color: #fff;
+			position: relative;
+			bottom: 15px;
+		}
+
+		@media only screen and (max-width: 1024px) {
+			#s4-workspace .slider {
+				margin-bottom: 80px;
+			}
+
+			.container {
+				max-width: 100%;
+				padding: 0px;
+			}
+		}
+
+		@media (min-width: 992px) {
+			.container {
+				padding: 0px;
+			}
+		}
+
+		.img1 {
+			background-image: url("https://www.monagi.com/GSSR/source/PublishingImages/study/mas.jpg");
+		}
+
+		.img2 {
+			background-image: url("https://www.monagi.com/GSSR/source/PublishingImages/study/faculties.jpg");
+		}
+
+		.img3 {
+			background-image: url("https://www.monagi.com/GSSR/source/PublishingImages/study/cal.jpg");
+		}
+
+		.img4 {
+			background-image: url("https://www.monagi.com/GSSR/source/PublishingImages/study/apply.jpg");
+		}
+
+		#s4-workspace .color3 {
+			background-color: #66c0fc !important;
+		}
+
+		#s4-workspace .color2 {
+			background-color: #55BF7C !important;
+		}
+
+		#s4-workspace .color1 {
+			background-color: #ff684e !important;
+		}
+
+		#s4-workspace .color4 {
+			background-color: #f7a130 !important;
+		}
+
+		#s4-workspace .slider.green2 .heading h2,#s4-workspace .slider.yellow .heading h2,#s4-workspace .slider.orange .heading h2,#s4-workspace .slider.green .heading h2 {
+			background-color: #b19777;
+		}
+
+		.w-100 {
+			object-fit: cover;
+		}
+		
+		@media screen and (min-width: 788px){
+#s4-workspace .containerMonagi {
+    padding: 30px 0; 
+}}
+@media screen and (min-width: 500px){
+#s4-workspace .containerMonagi {
+    padding: 0 ; 
+}}
+#s4-workspace .containerMonagi {
+   padding: 0; 
+   top: 240px;
+}
+#s4-workspace .slider .iosSlider .slides .item div.show {
+    right: 29px;
+}
