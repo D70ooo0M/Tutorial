@@ -176,7 +176,7 @@
     background-image: none;
   }
 .carousel{
-    margin-bottom: 100px;
+   margin: 0px 0 30px;
 }
 .carousel-control{
     position: absolute;
