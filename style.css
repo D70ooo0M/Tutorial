@@ -196,6 +196,7 @@
 		}
  #s4-workspace .caption p{
             bottom:-200px;
+color: #000;
         }
         #s4-workspace .caption:hover p{
             bottom:0;
@@ -204,7 +205,5 @@
         line-height: 1.5em;
         margin: 10px;
         }
-		#s4-workspace .caption p {
-			color: #000;
-		}
+		
   
