@@ -184,27 +184,5 @@
     display: inline-block;
     margin-top: -10px;
 }
-		
-#s4-workspace .caption {
-            background: rgba(255, 255, 255, .85);
-            text-align: right;
-            padding: 5px;
- -moz-transition: bottom .2s;
-            -ms-transition: bottom .2s;
-            -webkit-transition: bottom .2s;
-            transition: bottom .2s;
-            position: absolute;
-bottom:-120px;
-		}
- #s4-workspace .caption p{
-color: #000;
-        }
-        #s4-workspace .caption:hover{
-            bottom:0;
-        }
-        #s4-workspace .caption h4{
-        line-height: 1.5em;
-margin:10px;
-        }
-		
+
   
