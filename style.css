@@ -1,4 +1,5 @@
-/*بداية الاستايل الاجباري لكل الصفحات*/
+
+        /*بداية الاستايل الاجباري لكل الصفحات*/
 		@import url("https://fonts.googleapis.com/css2?family=Cairo");
 
 		* {
@@ -186,26 +187,38 @@
 }
 		
 #s4-workspace .caption {
-            background: rgba(255, 255, 255, .85);
-            text-align: right;
-            padding: 5px;
- -moz-transition: bottom .2s;
-            -ms-transition: bottom .2s;
-            -webkit-transition: bottom .2s;
-            transition: bottom .2s;
-            position: absolute;
-bottom:-120px;
+    -moz-transition: bottom .2s;
+    -ms-transition: bottom .2s;
+    -webkit-transition: bottom .2s;
+    background: #fff;
+    background: rgba(255, 255, 255, .85);
+    bottom: -80px;
+    height: 140px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    transition: bottom .2s;
 		}
- #s4-workspace .caption p{
-color: #000;
-        }
+
         #s4-workspace .caption:hover{
             bottom:0;
         }
         #s4-workspace .caption h4{
-        line-height: 1.5em;
-margin:10px;
+            font-size: 0.9em;
+            display: block;
+            line-height: 1.5em;
+            margin: 10px;
+            overflow: hidden;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 95%;
         }
-		
-
-  
+        #s4-workspace .caption p{
+            color: #555;
+            font-size: 15px;
+            line-height: 1.3em;
+            margin: 0 16px 16px;
+            text-align: right;
+                    }
