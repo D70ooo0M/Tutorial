@@ -224,7 +224,9 @@
             margin: 0 16px 16px;
             text-align: right;
                     }
-.panel {margin-top:10px;}
+      .panel {
+        padding-top: 10px !important;
+      }
 
 
 
