@@ -58,8 +58,10 @@
 			font-weight: lighter;
 		}
 
-		.main-content {
-		}
+		      #s4-workspace .main-content {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
 
 		/*نهاية الاستايل الاجباري لكل الصفحات*/
 		#s4-workspace {
