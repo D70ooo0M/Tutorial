@@ -17,8 +17,9 @@
 		}
 
 		.container {
-			width: 940px;
-			margin: auto;
+			width: 956px;
+    margin: auto;
+    padding: 0;
 		}
 
 		.list_right {
